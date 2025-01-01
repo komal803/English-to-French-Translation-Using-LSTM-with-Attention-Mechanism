@@ -2,7 +2,7 @@
 LSTM-Attention-Transformer English to French Translation
 
 
-#### Name: Akshay Parate
+#### Name: Komal Kadam
 
 
 ```python
@@ -55,9 +55,9 @@ dataset_path = os.path.join('a4-data', 'dataset')
 dataset = load_dataset('iwslt2017', 'iwslt2017-en-fr', cache_dir=dataset_path, ignore_verifications=True)
 ```
 
-    C:\Users\Akshay\anaconda3\envs\tensorflow\lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+    C:\Users\Komal\anaconda3\envs\tensorflow\lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
       from .autonotebook import tqdm as notebook_tqdm
-    C:\Users\Akshay\anaconda3\envs\tensorflow\lib\site-packages\datasets\load.py:2524: FutureWarning: 'ignore_verifications' was deprecated in favor of 'verification_mode' in version 2.9.1 and will be removed in 3.0.0.
+    C:\Users\Komal\anaconda3\envs\tensorflow\lib\site-packages\datasets\load.py:2524: FutureWarning: 'ignore_verifications' was deprecated in favor of 'verification_mode' in version 2.9.1 and will be removed in 3.0.0.
     You can remove this warning by passing 'verification_mode=no_checks' instead.
       warnings.warn(
     
